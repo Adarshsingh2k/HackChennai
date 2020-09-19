@@ -1,0 +1,46 @@
+body{
+    background-image: url(./img/Untitled\ design.png);
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+  
+}
+
+a{
+    text-decoration: none;
+    
+}
+.guidecard .card :hover{
+   
+   
+    filter: drop-shadow(0 0 0.75rem rgb(58, 218, 138));
+}
+.guidecard img{
+    height: 250px;
+
+}
+.guidecard a{
+    text-decoration: none;
+}
+
+.phCycl{
+    width: 300px;
+    align-items: center;
+}
+.phCycl li{
+    
+    list-style-type: "📞 ➮ ";
+    line-height: 35px; 
+    
+
+}
+
+.qform li{
+    line-height: 40px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    list-style: none;
+    
+}
