@@ -18,6 +18,10 @@ def hello_world():
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
+
+@app.route('/weather')
+def weather():
+    return render_template('weather.html')
     
 
 if __name__ == '__main__':
