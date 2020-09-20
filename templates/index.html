@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+    <title>DIS-M</title>
+  </head>
+<body>
+ 
+<!--Navbar-->
+<nav id="navbar">
+  <h1 class="logo">
+      <span class="text-primary">DIS - </span>M
+  </h1>
+  <ul>
+      
+      <li><a href="/">HOME</a></li>
+      <li><a href="/guides">GUIDE</a></li>
+      <li><a href="/weather">WEATHER</a></li>
+      <li><a href="/contact">CONTACT</a></li>
+  </ul>
+</nav>
+
+<!-- SHOWCASE -->
+<section id="about-info" class="bg-light py-3">
+  <div class="container">
+    <div class="info-left">
+      <h1 style="text-align: center;"><span class="text-primary">DIS - </span>M</h1>
+      <p style="text-align: center;">One Stop web App to know about the disasters.</p>
+      <div style="text-align: center;"><a href="#guides" class="btn">Read More</a></div>
+      
+    </div>
+    <div class="info-right">
+      <i class="fas fa-house-damage fa-10x"></i>
+    </div>
+  </div>
+</section>
+
+
+
+<!--GUIDES PAGE-->
+ <section id="guides">
+<section id="about-info" class="bg-light py-3" style="background-color:#93cb52;">
+  <div class="container">
+    <div class="info-right">
+      <h1 style="text-align: center;"><span style="color:#fff;">GUIDE !</span></h1>
+      <p>Let our guide page assist you about various disasters</p>
+      <p>Click the button to Know More</p>
+      <div style="text-align: center;"><a href="/guides" class="btn1">Know More</a></div>
+      
+    </div>
+    <div class="info-left">
+      <i class="fas fa-info-circle fa-10x"></i>
+    </div>
+  </div>
+</section>
+</section>
+
+
+
+<!-- WEATHER -->
+
+<section id="weather">
+<section id="about-info" class="bg-light py-3">
+  <div class="container">
+    <div class="info-left">
+      <h1 style="text-align: center;"><span class="text-primary">WEATHER</span></h1>
+      <p style="text-align: center;" >Wanna Know Weather and longitude,latitude at your Place.</p>
+      <div style="text-align: center;"><a href="/weather" class="btn">Check Weather At your Place!</a></div>
+      
+    </div>
+    <div class="info-right">
+      <i class="far fa-sun fa-10x"></i>
+    </div>
+  </div>
+</section>
+</section>
+
+
+
+<!-- FOOTER-->
+
+  <!-- Site footer -->
+  <footer  id="footer" class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify"> <i>One Stop web App to know about the disasters.</i></p>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/guides">Guides</a></li>
+            <li><a href="/weather">Know Weather at your place</a></li>
+            <li><a href="/contact">Contact US</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020</p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
